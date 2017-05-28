@@ -27,17 +27,6 @@
 
 static int ablkscaleinit(CSOUND *csound, ABLKSCALE *p)
 {
-   /* Initialise gain value */
-
-   /* p->gain = FL(1.0); */
-
-   /* Compute the gain speed changes from parameter given by Csound */
-   /* the computed values are stored in the opcode data structure p */
-   /* for later use in the main processing                          */
-
-  /*p->rspeed = (*p->rtime)*csound->onedsr*FL(1000.0);
-    p->fspeed = (*p->ftime)*csound->onedsr*FL(1000.0);
-    p->kthr = -FL(1.0); */
     return OK;
 }
 
