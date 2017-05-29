@@ -77,9 +77,9 @@ static int ablkscale(CSOUND *csound, ABLKSCALE *p)
 
 
 static OENTRY localops[] = {
- "ablkscale", S(ABLKSCALE), 0, 4, "a","ak",(SUBR)ablkscaleinit,
+  { "ablkscale", S(ABLKSCALE), 0, 4, "a","ak",(SUBR)ablkscaleinit,
   NULL, (SUBR)ablkscale }
-;
+  };
 
 LINKAGE
 
